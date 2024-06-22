@@ -3,7 +3,6 @@ name = "pqx"
 version = "0.1.0"
 edition = "2021"
 authors = ["DorianCoding"]
-edition = "2021"
 license = "MIT OR Apache-2.0"
 keywords = ["cryptography","pqc_kyber","x25519","quantum cryptography"]
 categories = ["authentication","cryptography"]
