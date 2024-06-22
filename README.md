@@ -3,7 +3,6 @@
 Exchange keys using X25519 and PQC-Kyber to be quantum-resistant.
 
 # Usage
-```
 ```toml
 # Cargo.toml
 
