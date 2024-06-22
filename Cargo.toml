@@ -1,0 +1,25 @@
+[package]
+name = "pqx"
+version = "0.1.0"
+edition = "2021"
+authors = ["DorianCoding"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = ["cryptography","pqc_kyber","x25519","quantum cryptography"]
+categories = ["authentication","cryptography"]
+description = "Enable keys transfer using quantum-resistant Kyber and X25519"
+repository = "https://github.com/DorianCoding/PQX"
+rust-version = "1.73"
+[dependencies]
+rand = "0.8.5"
+safe_pqc_kyber = "0.6.3"
+sha2 = "0.10.8"
+x25519-dalek = "2.0.1"
+zeroize = { version = "1.8.1", features = ["derive"] }
+
+[dev-dependencies]
+hex = "0.4.3"
+[lints.rust]
+unsafe_code = "warn"
+[badges]
+maintenance = {status = "passively-maintained" }
